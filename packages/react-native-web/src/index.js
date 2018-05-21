@@ -1,3 +1,5 @@
+import UnimplementedView from './modules/UnimplementedView';
+
 import createElement from './exports/createElement';
 import findNodeHandle from './exports/findNodeHandle';
 import processColor from './exports/processColor';
@@ -69,6 +71,39 @@ import ColorPropType from './exports/ColorPropType';
 import EdgeInsetsPropType from './exports/EdgeInsetsPropType';
 import PointPropType from './exports/PointPropType';
 
+const emptyObject = {};
+// compat (components)
+const DatePickerIOS = UnimplementedView;
+const DrawerLayoutAndroid = UnimplementedView;
+const ImageEditor = UnimplementedView;
+const ImageStore = UnimplementedView;
+const MaskedViewIOS = UnimplementedView;
+const NavigatorIOS = UnimplementedView;
+const PickerIOS = UnimplementedView;
+const ProgressBarAndroid = UnimplementedView;
+const ProgressViewIOS = UnimplementedView;
+const SegmentedControlIOS = UnimplementedView;
+const SwipeableFlatList = UnimplementedView;
+const SwipeableListView = UnimplementedView;
+const TabBarIOS = UnimplementedView;
+const ToastAndroid = UnimplementedView;
+const ToolbarAndroid = UnimplementedView;
+const ViewPagerAndroid = UnimplementedView;
+const YellowBox = UnimplementedView;
+// compat (apis)
+const ActionSheetIOS = emptyObject;
+const AlertIOS = emptyObject;
+const DatePickerAndroid = emptyObject;
+const ImagePickerIOS = emptyObject;
+const PermissionsAndroid = emptyObject;
+const PushNotificationIOS = emptyObject;
+const Settings = emptyObject;
+const StatusBarIOS = emptyObject;
+const Systrace = emptyObject;
+const TimePickerAndroid = emptyObject;
+const TVEventHandler = emptyObject;
+const VibrationIOS = emptyObject;
+
 export {
   // top-level API
   createElement,
@@ -138,7 +173,38 @@ export {
   // propTypes
   ColorPropType,
   EdgeInsetsPropType,
-  PointPropType
+  PointPropType,
+  // compat (components)
+  DatePickerIOS,
+  DrawerLayoutAndroid,
+  ImageEditor,
+  ImageStore,
+  MaskedViewIOS,
+  NavigatorIOS,
+  PickerIOS,
+  ProgressBarAndroid,
+  ProgressViewIOS,
+  SegmentedControlIOS,
+  SwipeableFlatList,
+  SwipeableListView,
+  TabBarIOS,
+  ToastAndroid,
+  ToolbarAndroid,
+  ViewPagerAndroid,
+  YellowBox,
+  // compat (apis)
+  ActionSheetIOS,
+  AlertIOS,
+  DatePickerAndroid,
+  ImagePickerIOS,
+  PermissionsAndroid,
+  PushNotificationIOS,
+  Settings,
+  StatusBarIOS,
+  Systrace,
+  TimePickerAndroid,
+  TVEventHandler,
+  VibrationIOS
 };
 
 const ReactNative = {
@@ -210,7 +276,39 @@ const ReactNative = {
   // propTypes
   ColorPropType,
   EdgeInsetsPropType,
-  PointPropType
+  PointPropType,
+
+  // compat (components)
+  DatePickerIOS,
+  DrawerLayoutAndroid,
+  ImageEditor,
+  ImageStore,
+  MaskedViewIOS,
+  NavigatorIOS,
+  PickerIOS,
+  ProgressBarAndroid,
+  ProgressViewIOS,
+  SegmentedControlIOS,
+  SwipeableFlatList,
+  SwipeableListView,
+  TabBarIOS,
+  ToastAndroid,
+  ToolbarAndroid,
+  ViewPagerAndroid,
+  YellowBox,
+  // compat (apis)
+  ActionSheetIOS,
+  AlertIOS,
+  DatePickerAndroid,
+  ImagePickerIOS,
+  PermissionsAndroid,
+  PushNotificationIOS,
+  Settings,
+  StatusBarIOS,
+  Systrace,
+  TimePickerAndroid,
+  TVEventHandler,
+  VibrationIOS
 };
 
 export default ReactNative;
