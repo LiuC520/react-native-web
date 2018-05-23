@@ -65,6 +65,7 @@ import TouchableOpacity from './exports/TouchableOpacity';
 import TouchableWithoutFeedback from './exports/TouchableWithoutFeedback';
 import View from './exports/View';
 import VirtualizedList from './exports/VirtualizedList';
+import YellowBox from './exports/YellowBox';
 
 // propTypes
 import ColorPropType from './exports/ColorPropType';
@@ -89,7 +90,6 @@ const TabBarIOS = UnimplementedView;
 const ToastAndroid = UnimplementedView;
 const ToolbarAndroid = UnimplementedView;
 const ViewPagerAndroid = UnimplementedView;
-const YellowBox = UnimplementedView;
 // compat (apis)
 const ActionSheetIOS = emptyObject;
 const AlertIOS = emptyObject;
@@ -170,6 +170,7 @@ export {
   TouchableWithoutFeedback,
   View,
   VirtualizedList,
+  YellowBox,
   // propTypes
   ColorPropType,
   EdgeInsetsPropType,
@@ -191,7 +192,6 @@ export {
   ToastAndroid,
   ToolbarAndroid,
   ViewPagerAndroid,
-  YellowBox,
   // compat (apis)
   ActionSheetIOS,
   AlertIOS,
@@ -273,6 +273,7 @@ const ReactNative = {
   TouchableWithoutFeedback,
   View,
   VirtualizedList,
+  YellowBox,
   // propTypes
   ColorPropType,
   EdgeInsetsPropType,
@@ -295,7 +296,6 @@ const ReactNative = {
   ToastAndroid,
   ToolbarAndroid,
   ViewPagerAndroid,
-  YellowBox,
   // compat (apis)
   ActionSheetIOS,
   AlertIOS,
